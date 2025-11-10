@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+.topbar {
+  background: #111827;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.topbar nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #2563eb;
+  color: #fff;
+  padding: 0.7rem 1.3rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.section {
+  padding: 3rem 2rem;
+  background: #f8f8f8;
+}
+
+form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input, textarea, button {
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #111827;
+  color: #fff;
+}
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
